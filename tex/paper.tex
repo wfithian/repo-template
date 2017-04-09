@@ -1,0 +1,57 @@
+\documentclass{article}
+
+
+\usepackage[round]{natbib}
+\usepackage{amsmath,amssymb,amsthm,bm,enumerate,mathrsfs,mathtools}
+\usepackage{latexsym,color,verbatim,multirow}
+\usepackage[margin=1.3in]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\tikzstyle{block} = [rectangle, draw, fill=white!20,
+    text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{title} = [text width=7em, text centered, font=\bfseries]
+\tikzstyle{line} = [draw, -latex']
+
+\usepackage{mycommands}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{model}[theorem]{Model}
+\newtheorem{remark}[theorem]{Remark}
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+
+
+\newcommand{\WFcomment}[1]{{\color{red}{(WF: \bf \sc #1) }}}
+
+
+\begin{document}
+
+
+\title{Paper Title}
+\author{Authors}
+\maketitle
+
+
+\begin{abstract}
+Abstract
+\end{abstract}
+
+
+
+
+\bibliographystyle{plainnat}
+\bibliography{biblio}
+
+
+\end{document}
