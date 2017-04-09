@@ -1,6 +1,13 @@
 Repo for paper "Statistics"
 ========
 
+
+git clone https://github.com/wfithian/repo-template.git NEW-REPO-NAME
+
+git remote set-url https://NEW-REPO-URL
+
+git push -u origin master
+
 Contributors
 --------
 X, Y, William Fithian
